@@ -1,4 +1,4 @@
-h<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -18,14 +18,23 @@ h<!DOCTYPE html>
             display: block;
             margin:auto;
         }
+        
+        #output{
+            border: 1px solid black;
+            height: 10vh;
+            width: 80%;
+            margin:auto;
+        }
     </style>
 </head>
 <body>
-    <h1>Banana Translations</h1>
-    <button id = "btn-translate">Translate</button>
+    <h1>Banana Translations</h1>   
     <textarea 
     id = "txt-Input"
-    placeholder="Put your text here........It gets converted into Banana Language"></textarea>
+    placeholder="Put your text here........It gets converted into Banana Language 😉"></textarea>
+    <button id = "btn-translate">Translate</button>
+    <div style="font-size: larger;" >Output out here 👇</div>
+    <div id="output" ></div>
 
     <script src ="app.js" type = "text/javascript"></script>
 </body>
