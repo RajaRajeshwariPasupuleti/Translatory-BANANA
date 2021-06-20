@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+
+
+
+:root{
+    --primary-color: #2563EB;
+    --dark-gray: grey;
+    --normal-gray: #F3F4F6;
+    --yellow-color: #FDE68A
+}
+
+body{
+    font-family: 'Lobster', cursive;
+    margin: 0px;
+}
+
+
+
+textarea {
+            width: 90vh;
+            height: 10vh;
+            display: block;
+            border-radius: 1.0rem;
+            margin: auto;
+            padding: 0.5rem 2rem;
+        }
+
+
+
+.container-center {
+            max-width: 700px;
+            margin: auto;
+        }
+
+
+#btn-translate {
+            color: white;
+            background-color: var(--primary-color);
+            border-radius: 0.5rem;
+            padding: 0.5rem 2rem;
+            font-weight: 700;
+            margin-top: 2rem;         
+            
+        }
+        
+#output{
+            border: 1px solid black;          
+            width: 90vh;
+            height: 15vh;
+            display: block;
+            margin: auto;
+            padding: 0.5rem 2rem;
+            overflow-y: scroll;
+            overflow-x: scroll;
+        }
+
+
+.navigation {
+            background-color: var(--yellow-color);
+            color: black;
+            padding-top: 0.5rem;
+            padding-bottom: 2rem;
+            border-bottom-left-radius: 1rem;
+            margin-bottom: 2rem;
+        }
+        
+.navigation .nav-brand{
+            font-weight: 700 ;
+           
+            font-size: x-large;
+        }
+
+.navigation .minion-img{
+            max-width: 200px;         
+            margin-right: 1rem;
+        }
+
+.footer
+        {
+            background-color: var(--yellow-color);
+            text-align: center;      
+            border-top-left-radius: 1rem;
+            border-bottom-right-radius: 1rem;     
+            padding: 2rem 0rem;
+            color: black;
+            margin-top: 5rem;
+        }
+        
+.footer .footer-header
+        {
+            font-weight: 700;
+            font-size: large;
+        }
+.footer .h1
+{
+    text-align: center;
+}
+

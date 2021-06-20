@@ -11,30 +11,43 @@
      <!-- <script>console.log("Script in head tag")</script>   -->
      <!-- Type 2 -->
      <!-- <script src ="app.js" type = "text/javascript"></script> -->
-    <style>
-        textarea {
-            width: 100vh;
-            height: 10vh;
-            display: block;
-            margin:auto;
-        }
-        
-        #output{
-            border: 1px solid black;
-            height: 10vh;
-            width: 80%;
-            margin:auto;
-        }
-    </style>
+
+     <link href="styles.css" rel="stylesheet" />
+    
 </head>
 <body>
-    <h1>Banana Translations</h1>   
+
+    <nav class="navigation">
+        <img class="minion-img" src="images/Minions.jpg" ALIGN="right" />  
+        <div class="nav-brand">Translation To Banana</div> 
+        <h1 style="text-align: center;">Lets see how Minions Speak 😀 </h1>  
+    </nav>
+
+
+    <div class="container-center">
     <textarea 
     id = "txt-Input"
     placeholder="Put your text here........It gets converted into Banana Language 😉"></textarea>
-    <button id = "btn-translate">Translate</button>
-    <div style="font-size: larger;" >Output out here 👇</div>
+    </div>
+
+
+    <div class="container-center">
+        <button id = "btn-translate">Translate To Banana</button>
+    </div>
+
+    
+   
+    <div class="container-center">
+    <h2 style="text-align: center;">Translated Output out here 👇</h2>    
     <div id="output" ></div>
+    </div>
+
+
+    <footer class="footer">
+        <div class="footer-header">About</div>
+        <h3 >Are you a fan of minions? Did you know that the gibberish they say is an actual language. Use the translator to convert your text from English to Minion speak or Banana language.</h3>
+    </footer>
+
 
     <script src ="app.js" type = "text/javascript"></script>
 </body>
